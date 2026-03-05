@@ -1,28 +1,28 @@
 class Velos < Formula
   desc "High-performance AI-friendly process manager"
   homepage "https://github.com/Dave93/velos"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/Dave93/velos/releases/download/v#{version}/velos-macos-arm64.tar.gz"
-      sha256 "0819af4bbb2fa471f9009cc102e22a119a7b36281d84a8629ce001a40d82f756"
+      sha256 "d719972a0fdeb7f51faa9428408f6c98e3ed72c472e7a247dee2716b88968b91"
     end
     on_intel do
       url "https://github.com/Dave93/velos/releases/download/v#{version}/velos-macos-x86_64.tar.gz"
-      sha256 "20d9d10bef4872468707ca4c0aca10b93bd974c9a3922058d459c35687419dc8"
+      sha256 "890286912c74c36d254035fe9a1b905dbd8960f6ba593554430f6c467313c66c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Dave93/velos/releases/download/v#{version}/velos-linux-arm64.tar.gz"
-      sha256 "d661f58fc525a012af6cecdaa682e7a14a390541b515093c0e6ffb94e7860650"
+      sha256 "2de967f1d72a9f2e155ba5d598936db29d30853171ccc66c387b11dc2eb1be74"
     end
     on_intel do
       url "https://github.com/Dave93/velos/releases/download/v#{version}/velos-linux-x86_64.tar.gz"
-      sha256 "8bbe7fb335f37488da79d3b9697101cddd8dbf22842cc474fb9378e76f6109b2"
+      sha256 "5d2aab207667fc97b1dd0c9998bfbd087cb0e36cbd9e6d97d072ddf7af918cf7"
     end
   end
 
