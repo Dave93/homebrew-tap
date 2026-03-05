@@ -7,22 +7,22 @@ class Velos < Formula
   on_macos do
     on_arm do
       url "https://github.com/Dave93/velos/releases/download/v#{version}/velos-macos-arm64.tar.gz"
-      sha256 "28e1b2f0e3910aba3db082dedf8c4bef273c6e261061276d1614c8ead62cd629"
+      sha256 "1db9212482623e4c49c1f0f214337ecc9e4d245c08ddc13338c8d1539e81e2c2"
     end
     on_intel do
       url "https://github.com/Dave93/velos/releases/download/v#{version}/velos-macos-x86_64.tar.gz"
-      sha256 "8f681e5883ef4fea488316df8d28e7ab4ea43df29621858d9b99de724ab78bc5"
+      sha256 "ab2dd146899cb35d3b5214ae9ec19d64f2dd65c3dc9a405fde0fa257cefe739d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Dave93/velos/releases/download/v#{version}/velos-linux-arm64.tar.gz"
-      sha256 "07d1ce588a829de54e60e7129d14f5c060474afbbbfe3d4a3eb39bafe98d5ffc"
+      sha256 "2823936f02c0b028fa8704aa78e9584566f7a893fc7b62a64d2e9b363053e2e5"
     end
     on_intel do
       url "https://github.com/Dave93/velos/releases/download/v#{version}/velos-linux-x86_64.tar.gz"
-      sha256 "63e1a874b3e3b43682f72934234892e38c2bb9e5520daa24631d41e78e132183"
+      sha256 "26a4d690248cc82f913cc1408e8912a9b834b17d17002503fd05b8f904259b56"
     end
   end
 
